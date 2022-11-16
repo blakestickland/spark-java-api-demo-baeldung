@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54fb1841-6a46-4047-93f7-21acb372e8f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SparkRestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User/UserServiceMapImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User/StandardResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User/StandardResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User/StatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User/StatusResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HelloWorldService">
+  <component name="RunManager" selected="Application.SparkRestExample">
     <configuration name="HelloWorldService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,12 +76,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkRestExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SparkRestExample" />
+      <module name="spark-java-api-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.SparkRestExample" />
       <item itemvalue="Application.HelloWorldService" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkRestExample" />
         <item itemvalue="Application.HelloWorldService" />
         <item itemvalue="Application.Main" />
       </list>
