@@ -1,28 +1,17 @@
 package org.example.User;
 
-import jdk.jshell.spi.ExecutionControl;
-
 import java.util.Collection;
 
-public class UserService {
+public interface UserService {
+    public void addUser(User user);
 
-    public void addUser (User user) {};
+    public Collection<User> getUsers();
 
-    public Collection<User> geUsers () {
-        return null;
-    };
-    public User getUser (String id) {
-        return null;
-    };
+    public User getUser(String id);
 
-    public User editUser (User user)
-        throws ExecutionControl.UserException {
-        return user;
-    };
+    public User editUser(User user) throws UserException;
 
-    public void deleteUSer (String id) {};
+    public void deleteUser(String id);
 
-    public boolean userExist (String id) {
-        return false;
-    };
+    public boolean userExist(String id);
 }
