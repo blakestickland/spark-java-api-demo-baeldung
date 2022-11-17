@@ -9,7 +9,7 @@ public interface UserService {
 
     public User getUser(String id);
 
-    public User editUser(User user) throws UserException;
+    public User editUser(User user, String id) throws UserException;
 
     public void deleteUser(String id);
 

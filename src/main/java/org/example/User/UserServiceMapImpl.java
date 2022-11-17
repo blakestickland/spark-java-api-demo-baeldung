@@ -25,12 +25,12 @@ public class UserServiceMapImpl implements UserService {
     }
 
     @Override
-    public User editUser(User forEdit) throws UserException {
+    public User editUser(User forEdit, String id) throws UserException {
         try {
-            if (forEdit.getId() == null)
-                throw new UserException("ID cannot be blank");
+//            if (forEdit.getId() == null)
+//                throw new UserException("ID cannot be blank");
 
-            User toEdit = userMap.get(forEdit.getId());
+            User toEdit = userMap.get(id);
 
             if (toEdit == null)
                 throw new UserException("User not found");
